@@ -1,11 +1,11 @@
 import cv2
 
 # load image with cars
-img_file = "pedcars3.jpeg"
+img_file = "images/pedcars1.jpg"
 
 # load pre-trained car classifier
-car_classifier_file = 'car_classifier.xml'
-pedestrian_classifier_file = 'haarcascade_fullbody.xml'
+car_classifier_file = 'classifiers/car_classifier.xml'
+pedestrian_classifier_file = 'classifiers/haarcascade_fullbody.xml'
 
 #create opencv image
 img = cv2.imread(img_file)
