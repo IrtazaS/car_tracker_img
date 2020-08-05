@@ -1,9 +1,10 @@
 import cv2
 
-# load image with cars
-img_file = "images/pedcars1.jpg"
+# load image with cars or pedestrians
+img_file = "images/cars.jpg"
+#img_file = "images/pedestrians.jpg"
 
-# load pre-trained car classifier
+# load pre-trained car & pedestrians classifier
 car_classifier_file = 'classifiers/car_classifier.xml'
 pedestrian_classifier_file = 'classifiers/haarcascade_fullbody.xml'
 
